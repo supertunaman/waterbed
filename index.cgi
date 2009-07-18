@@ -45,3 +45,5 @@ if [ -f $footer ] ; then
 else
 	echo "</body></html>"
 fi
+
+exit 0
