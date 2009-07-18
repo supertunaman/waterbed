@@ -1,1 +1,28 @@
-Yep, a forum system written in bash. Admin stuff like adding boards or removing posts is done from the command line. It uses tables. OOP is a foreign concept in the scope of this project. Smoking within 50 feet is strictly prohibited. No shoes, no shirt, no CGI.
+|~~~~~|
+waterbed
+50' long
+
+Yep, a forum system written in bash. 
+Admin stuff like adding boards or removing posts is done from the command line. 
+It uses tables. 
+OOP is a foreign concept in the scope of this project. 
+Smoking within 50 feet is strictly prohibited. 
+No shoes, no shirt, no MVC.
+
+A typical installation would have index.cgi in the root dir of the
+forum. There would be a dir called "boards". In there would be more dirs.
+
+These directories are your actual forums. Now here's where it gets tricky,
+try to keep up. If I'm going too fast then please raise your hand.
+
+The name of the dir is the name of the board. Hyphens become spaces. So,
+
+Pumpers/
+
+becomes the board "Pumpers". Now something more advanced:
+
+Tumblers-Better-than-Pumpers/
+
+becomes the board "Tumblers Better than Pumpers".
+
+Stay tuned for more instructions as this thing gets to a workable state.
